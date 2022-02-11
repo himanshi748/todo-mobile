@@ -1,0 +1,101 @@
+
+h1{ font-size:60px;
+    color:orangered;
+    text-align:center;}
+    @media (max-width:550px){
+        h1{font-size: 45px;}
+    }
+ span{background-color: orangered;
+     padding:4px 4px ;
+     border-radius:15px;
+     color:white;
+     } 
+.box{
+  font-size: 25px;
+  border-color: brown;
+  border-style: groove;
+  box-shadow:10px 10px 15px brown;
+  width: 400px;
+  height:400px;
+  border-radius: 10px;
+  display:inline-block;
+  text-align:center;
+  margin-top:50px
+ }
+ @media (max-width:550px){
+    .box{
+        width: 300px;
+        height:300px;
+    }  
+}
+h2{color: red;
+  text-align:center;
+ margin-top: 45px;}
+ @media (max-width:550px){
+     h2{font-size: 30px;}
+     del{
+         font-size: 20px;
+     }
+     label{
+         font-size: 20px;
+     }
+     
+ }
+  
+del{color: orangered;}
+hr{width:50%;
+   color:brown;}
+i  {background-color: orangered;
+    color:white;
+    border-radius: 10px;
+    float: right;
+    margin-right:70px;
+    margin-top:100px; } 
+    @media(max-width:550px){
+        i{
+            margin-right:30px;
+            margin-top:25px; 
+        
+        }
+    }
+    /* main prg */
+    
+    .list{   border:5px;
+            border-color: orangered;
+            width:300px;
+            height:150px;
+            position: relative;
+            bottom: 350px;
+            left:540px;
+            background-color: white;
+            border-style: groove;
+            border-radius:25px;
+            padding:25px;
+            text-align: center;
+  
+          }
+          @media (max-width:550px){
+                 .list{ left:30px;
+                    width:250px;
+                    bottom:300px;
+                    height:150px;
+                    padding: 15px;}
+                 h1{font-size: 25px;}
+                button{
+                    font-size: 15;
+                }
+
+          }
+  
+      .list h1{color:orangered;
+        font-size:30px;
+        text-align: center;
+        margin-top: 10px;}
+      button{color:white;
+        font-size:20px;
+        background-color: orangered;
+        width:80px;
+       height: 40px;
+       border-radius:15px;}
+      input{border-color: orange;
+       } 

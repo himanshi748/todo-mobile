@@ -1,0 +1,243 @@
+.cont{border:1px solid black;
+    width:100%;
+    height:900px;
+   
+    }
+    .grid{display: grid;
+        position: absolute;
+        grid-template-columns:auto auto auto ;
+        text-align: center;
+        justify-content: center;}
+    
+   
+    @media (max-width:550px){
+        
+        .grid{
+            grid-template-columns:auto ;
+            height:2500px;
+            margin-top: 3px;
+            /* gap:50px 20px; */
+           
+            }
+            del{
+                visibility: hidden;
+                display: none;
+            }
+            hr{
+                visibility: hidden;
+                display: none;
+            }
+            label{
+                visibility: hidden;
+                display: none;
+            }
+            input{
+                visibility: hidden;
+                display: none;
+            }
+            
+        }
+    
+    h2{color: red;
+            text-align:center;
+        margin-top: 35px;}
+    
+    del{color: orangered;}
+        hr{width:50%;
+          color:rgb(63, 4, 4);}
+        label{color: orangered;}
+    
+    h1{
+            
+            margin-left: 170px;
+            font-size: 65px;
+            padding-top: 10px;
+            display: inline-block;
+        
+         }
+    @media (max-width:550px){
+        h1{
+            margin-left:17px;
+            font-size: 45px;
+        }
+    }
+    i  {background-color: red;
+        color:white;
+        size:400px;
+         border-radius: 10px;
+         margin-top: 10px;
+         margin-left:500px ;
+        margin-bottom: 0px;
+       }
+       @media (max-width:550px){
+           i{margin-left: 15px;
+        }
+        span{display: none;
+            } 
+       }
+       span{text-align: center;
+        font-size:40px;
+        }
+        
+                  
+                .box{
+                    border: 2px solid orangered;
+                    border-radius: 15px;
+                    height: 300px;
+                    width: 200px;
+                    box-sizing: border-box;
+                    position: absolute;
+                    top: 10px;
+                    left: 100px;
+                    margin: 10px;
+                    box-shadow: 5px 5px 10px orangered;
+                 }
+          @media (max-width:550px){
+                 .box{
+                        left: 20px;
+                        font-size: 13px;
+                       height:100px;
+                       width:232px;
+                       position: relative;
+                         
+                     }
+                 
+                 }            
+                
+    .box2{
+           border: 2px solid orangered;
+           border-radius: 15px;
+           height: 300px;
+           width: 200px;
+           box-sizing: border-box;
+           position: absolute;
+           top: 10px;
+           left: 350px;
+           margin: 10px;
+           box-shadow: 5px 5px 15px orangered;
+        }
+ @media (max-width:550px){
+        .box2{
+            
+                left: 20px;
+               top:130px;
+                font-size: 13px;
+               height:100px;
+               width:232px;
+               position: absolute;
+                 
+             }
+            
+        
+        }
+            .box3{
+                border: 2px solid orangered;
+                border-radius: 15px;
+                height: 300px;
+                width: 200px;
+                box-sizing: border-box;
+                position: absolute;
+                top: 10px;
+                left:590px;
+                margin: 10px;
+                box-shadow: 5px 5px 15px orangered;
+             }
+      @media (max-width:550px){
+             .box3{
+            
+                left: 20px;
+               top:250px;
+                font-size: 13px;
+               height:100px;
+               width:232px;
+               position: absolute;
+                 
+             }}
+                 .box4{
+                    border: 2px solid orangered;
+                    border-radius: 15px;
+                    height: 300px;
+                    width: 200px;
+                    box-sizing: border-box;
+                    position: absolute;
+                    top: 10px;
+                    left: 840px;
+                    margin: 10px;
+                    box-shadow: 5px 5px 15px orangered;
+                 }
+          @media (max-width:550px){
+            .box4{
+            
+                left: 20px;
+               top:370px;
+                font-size: 13px;
+               height:100px;
+               width:232px;
+               position: absolute;
+                 
+             }}
+                     .box5{
+                        border: 2px solid orangered;
+                        border-radius: 15px;
+                        height: 300px;
+                        width: 200px;
+                        box-sizing: border-box;
+                        position: absolute;
+                        top: 10px;
+                        left: 1100px;
+                        margin: 10px;
+                        box-shadow: 5px 5px 15px orangered;
+                     }
+              @media (max-width:550px){
+                .box5{
+            
+                    left: 20px;
+                   top:500px;
+                    font-size: 13px;
+                   height:100px;
+                   width:232px;
+                   position: absolute;
+                     
+                 }}                 
+        /* main */
+
+        .list{   border:5px;
+            border-color: orangered;
+            width:350px;
+            height:150px;
+            position: relative;
+            bottom: 650px;
+            left:540px;
+            background-color: white;
+            border-style: groove;
+            border-radius:25px;
+            padding:25px;
+            text-align: center;
+            justify-content: center;
+          }
+          @media (max-width:550px){
+                 .list{ left:30px;
+                    width:250px;
+                    bottom:660px;
+                    height:150px;
+                    padding: 15px;}
+                 h1{font-size: 25px;}
+                button{
+                    font-size: 15;
+                }
+
+          }
+  
+      .list h1{color:orangered;
+        font-size:30px;
+        margin-left: 10px;
+        margin-top: 10px;
+       justify-content: center;}
+      button{color:white;
+        font-size:20px;
+        background-color: orangered;
+        width:80px;
+       height: 40px;
+       border-radius:15px;}
+      input{border-color: orange;
+       } 
